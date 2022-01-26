@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_initicon/flutter_initicon.dart';
 import 'package:movieverse/utils/colors.dart';
 import 'package:movieverse/widgets/base_container.dart';
 import 'package:movieverse/widgets/pfp.dart';

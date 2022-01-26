@@ -25,20 +25,22 @@ class MovieDetails extends StatelessWidget {
             child: Column(
               // crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                movie['poster_path'] != null ? Container(
-                    width: MediaQuery.of(context).size.width,
-                    child: movie['poster_path'] != null ? Image.network(
-                        'https://image.tmdb.org/t/p/w500${movie['poster_path']}',
-                        fit: BoxFit.cover,
-                        loadingBuilder: (context, child, loadingProgress) {
-                      if (loadingProgress == null) return child;
-                      return Container(
-                        height: MediaQuery.of(context).size.height * 0.7,
-                        child: Center(
-                          child: CircularProgressIndicator(),
-                        ),
-                      );
-                    })) : Container(),
+                movie['poster_path'] != null
+                    ? Container(
+                        width: MediaQuery.of(context).size.width,
+                        child: Image.network(
+                            'https://image.tmdb.org/t/p/w500${movie['poster_path']}',
+                            fit: BoxFit.cover,
+                            loadingBuilder: (context, child, loadingProgress) {
+                          if (loadingProgress == null) return child;
+                          return Container(
+                            height: MediaQuery.of(context).size.height * 0.7,
+                            child: Center(
+                              child: CircularProgressIndicator(),
+                            ),
+                          );
+                        }))
+                    : Container(),
                 FutureBuilder(
                     future: apiCalls.getMovieDetails(movie['id'].toString()),
                     builder: (context, AsyncSnapshot snapshot) {

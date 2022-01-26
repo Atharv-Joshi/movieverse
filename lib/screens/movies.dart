@@ -7,7 +7,7 @@ import 'package:movieverse/widgets/searchbar.dart';
 
 class Movies extends StatelessWidget {
   Movies({Key? key}) : super(key: key);
-  ApiCalls apiCalls = ApiCalls();
+  final ApiCalls apiCalls = ApiCalls();
 
   @override
   Widget build(BuildContext context) {
