@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:movieverse/screens/authentication.dart';
-import 'package:movieverse/screens/dashboard.dart';
 
 void main() {
   runApp(const MyApp());
