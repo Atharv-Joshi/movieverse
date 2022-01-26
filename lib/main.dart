@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:movieverse/screens/authentication.dart';
 import 'package:movieverse/screens/dashboard.dart';
 
 void main() {
@@ -14,8 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.purple,
       ),
-      home: const Dashboard(),
+      home: const Authentication(),
     );
   }
 }
-

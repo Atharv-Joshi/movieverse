@@ -121,13 +121,6 @@ class MovieDetails extends StatelessWidget {
                     style: TextStyle(color: Colors.white),
                   ),
                 ),
-                // Row(
-                //   children: [
-                //     Container(
-                //         margin: EdgeInsets.fromLTRB(10, 10, 0, 0),
-                //         child: Subtitle(text: 'Trailers & Extras')),
-                //   ],
-                // ),
                 FutureBuilder(
                     future: apiCalls.getMovieVideos(movie['id'].toString()),
                     builder: (BuildContext context, AsyncSnapshot snapshot) {
