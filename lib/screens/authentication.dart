@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:movieverse/screens/dashboard.dart';
 import 'package:movieverse/utils/colors.dart';
-import 'package:movieverse/widgets/base_container.dart';
+
 
 class Authentication extends StatelessWidget {
   const Authentication({Key? key}) : super(key: key);
@@ -9,7 +9,9 @@ class Authentication extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-      child: BaseContainer(
+      child: Container(
+        height: MediaQuery.of(context).size.height,
+        width: MediaQuery.of(context).size.width,
         child: Stack(
           children: [
             Container(
@@ -43,7 +45,7 @@ class Authentication extends StatelessWidget {
                       decoration: InputDecoration(
                           fillColor: AppColors().purple6,
                           filled: true,
-                          hintText: 'enterapp',
+                          hintText: 'type enterapp',
                           hintStyle: TextStyle(
                             color: Colors.white70,
                           )),
