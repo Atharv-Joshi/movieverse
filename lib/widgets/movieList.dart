@@ -47,6 +47,12 @@ class _MovieListState extends State<MovieList> {
   }
 
   @override
+  void dispose() {
+    // TODO: implement dispose
+    scrollController.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
