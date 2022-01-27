@@ -6,7 +6,7 @@ Movieverse is a flutter application using [themoviedb](https://www.themoviedb.or
 Users can signin, create a basic profile and browse movies and tv shows.
 The application also has a search function so users can search a movie the like and also view at similar results.
 
-<!-- ### Screens:
+### Screens:
 
 Authentication 
 :-----------------: |
@@ -19,7 +19,7 @@ Home | Movies | Profile
 Search | Movie Details
 :-----: | :-----:
 ![search](https://user-images.githubusercontent.com/53505850/151294838-dabf770e-9ade-45d8-ad8e-175b4da754cf.png) | ![moviedetail](https://user-images.githubusercontent.com/53505850/151294857-b15d6a59-27f6-4102-ac9a-0372302e639f.png)
- -->
+
 ### Features:
 
 - Basic Authentication System
@@ -34,14 +34,21 @@ Search | Movie Details
 - Search for movies
 - View details like genre, rating, overview etc.
 
+### Drive Link to download apk:
+
+https://drive.google.com/file/d/16R0GLQmds5JKdJrSfpsRpX9iDYh_DVU5/view?usp=sharing
+
+### Usage notes:
+- Install the app from the apk. Ignore playprotect.
+- Password is **enterapp**
+- To change the name in profile menu, you have to submit it through keyboard to see the changes in values. This means after typing your name click on the arrow/enter button on keyboard generally located in bottom right corner.
+
 ### Known Bugs and Room for improvement:
 - Due to flutter youtube in home page, when user taps on poster to see movie details a white screen is seen for a split second
 - the trailers and clips in detail page cannot be seen properly
 - On home page there are five trailers when can be viewed by swiping to the right on movie name. This can be improvied.
 
-## Usage notes:
-- Install the app from the apk. Ignore playprotect.
-- To change the name in profoile menu, you have to submit it through keyboard to see the changes in values. This means after typing your name click on the arrow/enter button on keyboard generally located in bottom right corner.
-- 
+
+
 
 
