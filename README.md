@@ -46,7 +46,7 @@ https://drive.google.com/file/d/16R0GLQmds5JKdJrSfpsRpX9iDYh_DVU5/view?usp=shari
 ### Known Bugs and Room for improvement:
 - Due to flutter youtube in home page, when user taps on poster to see movie details a white screen is seen for a split second
 - the trailers and clips in detail page cannot be seen properly
-- On home page there are five trailers when can be viewed by swiping to the right on movie name. This can be improvied.
+- On home page there are five trailers when can be viewed by swiping to the right on movie name. This can be improved.
 
 
 
